@@ -9,7 +9,9 @@ def sort(width: float, height: float, length: float, mass: float) -> str:
     All inputs are expected to be non-negative. If any input is negative or zero, a ValueError is raised.
     '''
 
-    if width <= 0 or height <= 0 or length <= 0 or mass <= 0:
+    if not width or not height or not length or not mass:
+        raise ValueError("All parameters must be non-null.")
+    elif width <= 0 or height <= 0 or length <= 0 or mass <= 0:
         raise ValueError("All parameters must be non-negative.")
     
     volume = width * height * length
