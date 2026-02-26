@@ -12,7 +12,7 @@ def sort(width: float, height: float, length: float, mass: float) -> str:
     if not width or not height or not length or not mass:
         raise ValueError("All parameters must be non-null.")
     elif width <= 0 or height <= 0 or length <= 0 or mass <= 0:
-        raise ValueError("All parameters must be non-negative.")
+        raise ValueError("All parameters must be positive.")
     
     volume = width * height * length
     is_bulky = volume >= 1000000 or max(width, height, length) >= 150
