@@ -68,4 +68,4 @@ if __name__ == "__main__":
         result = sort.sort(*test_case["input"])
         assert result == test_case["expected"], f"Test case {i} failed: expected {test_case['expected']}, got {result}"
 
-    print(f"All {len(test_cases)} test cases passed!")
+    print(f"✅ all {len(test_cases)} test cases passed!")

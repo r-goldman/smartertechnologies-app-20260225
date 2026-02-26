@@ -4,14 +4,17 @@
 
 This project consists of 2 python scripts: [sort.py](./sort.py), and [test.py](./test.py).
 
-- `sort.py` contains the implentation of the problem function (defined [here](https://thoughtfulautomation.notion.site/Core-Engineering-Technical-Screen-b61b6f6980714c198dc49b91dd23d695))
+- `sort.py` contains the implementation of the problem function (defined [here](https://thoughtfulautomation.notion.site/Core-Engineering-Technical-Screen-b61b6f6980714c198dc49b91dd23d695))
 - `test.py` contains a helper script to execute the problem function with several different inputs. It asserts the return value of the problem function matches expectations.
 
 ## Executing this code
 
 ### Pre-requisits
 
-- You must have python3 installed. You can install it [here](https://www.python.org/downloads/).
+The following software must be installed on your machine to execute this code:
+
+- [python3](https://www.python.org/downloads/).
+- [git](https://git-scm.com/install/)
 
 ### Executing this code
 
